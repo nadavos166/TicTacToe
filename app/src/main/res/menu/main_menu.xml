@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/searchos"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="search"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/namename"
+        android:title="save" />
+    <item
+        android:id="@+id/say"
+        android:title="say..." >
+        <menu >
+            <item
+                android:id="@+id/sayYes"
+                android:title="yes" />
+            <item
+                android:id="@+id/sayNo"
+                android:title="no" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/help"
+        android:title="help" />
+</menu>
